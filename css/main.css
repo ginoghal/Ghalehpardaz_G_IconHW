@@ -1,0 +1,82 @@
+/*html selectors*/
+header{
+  height: 1px;
+}
+
+.pokemon_Icons{
+  text-align: center;
+  background-color: #87CEEB;
+  background-size: 100px;
+  margin: -20px;
+  padding: 0px;
+}
+
+
+.mainNav{
+  height: -2px;
+  margin-top: 30px;
+  margin-bottom: 1px;
+  margin-left: 600px;
+  margin-right: 1px;
+  text-align: right;
+  display: inline-block;
+  text-decoration-line: none;
+}
+
+.mainNav ul{
+  padding: 0px;
+  margin: 0px;
+  text-align: right;
+  display: inline-block;
+  vertical-align: top;
+  font-style: normal;
+  font-family: inherit;
+}
+
+.mainNav ul li{
+  font-size: 16px;
+  display: inline;
+  cursor: pointer;
+  margin-right: 1px;
+}
+
+.mainNav ul li a {
+  color: green;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.mainNav ul li a: hover{
+  padding: 1px;
+  background-color: #8B0000;
+}
+
+.pokemon_Type_Title{
+  margin-top: 100px;
+  text-size: 10px;
+  text-align: left;
+}
+
+.thunder_Icon{
+  margin-left: -500px;
+
+
+}
+
+.fire_Icon{
+
+}
+
+.water_Icon{
+  margin-top: -400px;
+  padding-top: 0px;
+}
+
+.st0:hover {opacity:1;fill:#222222;}
+.st1:hover {opacity:1;fill:#111111;}
+.st2:hover {opacity:1;fill:#FFA500;}
+.st3:hover {opacity:1;fill:#492812;}
+.st4:hover {opacity:1;fill:#832100;}
+.st5:hover {opacity:1;fill:#FFA500;}
+.st6:hover {opacity:1;fill:#492812;}
+.st7:hover {opacity:1;fill:#832100;}

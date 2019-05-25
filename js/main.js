@@ -9,7 +9,11 @@ console.log('Pokemon');
 //let stores the reference to element as  a variable (in memory)
 var element= name.type
 p = document.createElement("p");
+p.style.fontSize = "16px";
+p.style.color = "#003366";
+p.style.fontFamily = "Trebuchet MS","Arial","Sans Serif";
 p.innerHTML = "Your favourite type is "+type+" Pokemon.";
 document.body.appendChild(p);
+
 
 })();

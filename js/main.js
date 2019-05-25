@@ -1,28 +1,15 @@
 (() =>{
+//this is a self invoking fucntion
+console.log('Pokemon');
 
+//select elements with JS
+//setting up a variable using the let keyword,
+//and using CSS selector to find the element we want to use
 
-console.log(name);
-
-var= document.getElementById('myButton');
-
- //add event listener
- myBtn.addEventListener('click', function(viewBox) {
-  "Water Type are super effective against Fire types";
-
-
-  function logMyId() {
-    console.log(this.id);
-
-    this.style.opacity = 0.5;
-
-
-
-    function viewBox(){
-      water_Icon.textContent = "Now you're something else!!";
-      water_Icon.classList.toggle("selected")
-      subHead.textContent = "You are also something else!";
-
-    }
-
+//let stores the reference to element as  a variable (in memory)
+var element= name.type
+p = document.createElement("p");
+p.innerHTML = "Your favourite type is "+type+" Pokemon.";
+document.body.appendChild(p);
 
 })();

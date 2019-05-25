@@ -62,6 +62,10 @@ header{
   text-align: center;
 }
 
+.button {
+  display: inline-block;
+}
+
 .water_Icon{
   margin-top: 1px;
   margin-right: 200px;
@@ -89,7 +93,7 @@ width: 150px;
 }
 
 .fire_Icon{
-  margin-top: -145px;
+  margin-top: -150px;
   margin-bottom: 1px;
   margin-left: 150px;
   margin-right: 1px;
@@ -117,7 +121,7 @@ width: 150px;
 }
 
 .ice_Icon{
-  margin-top: -145px;
+  margin-top: -150px;
   margin-bottom: 1px;
   margin-left: -50px;
   margin-right: 1px;
@@ -135,7 +139,7 @@ width: 150px;
 }
 
 .grass_Icon{
-  margin-top: 100px;
+  margin-top: 75px;
   margin-bottom: 1px;
   margin-left: -600px;
   margin-right: 1px;
@@ -152,6 +156,83 @@ width: 150px;
   width: 150px;
 }
 
+.water_Button{
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  margin-right: 40px;
+}
+
+.thunder_Button{
+  margin-top: 7px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  margin-right: 30px;
+}
+
+.psychic_Button{
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  margin-right: 35px;
+}
+
+.fire_Button{
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  margin-right: 40px;
+}
+
+.dragon_Button{
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  margin-right: 35px;
+}
+
+.bug_Button{
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  margin-right: 45px;
+}
+
+.ice_Button{
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  margin-right: 45px;
+}
+
+.rock_Button{
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  margin-right: 40px;
+}
+
+
+.grass_Button{
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  margin-right: 40px;
+}
+
+.ghost_Button{
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  margin-right: 35px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -159,24 +240,24 @@ width: 150px;
 .st2:hover {opacity:1;fill:#00BFFF;}
 .st3:hover {opacity:1;fill:#FFFFFF;}
 .st4:hover {opacity:1;fill:#FFD700;}
-.st5:hover {opacity:1;fill:#FFA500;}
+.st5:hover {opacity:1;fill:#6495ED;}
 .st6:hover {opacity:1;fill:#492812;}
-.st7:hover {opacity:1;fill:#222222;}
-.st8:hover {opacity:1;fill:#222222;}
+.st7:hover {opacity:1;fill:#FFFFFF;}
+.st8:hover {opacity:1;fill:#FFFF00;}
 .st9:hover {opacity:1;fill:#F5F5DC;}
 .st10:hover {opacity:1;fill:#222222;}
 .st11:hover {opacity:1;fill:#222222;}
 .st12:hover {opacity:1;fill:#492812;}
 .st13:hover {opacity:1;fill:#222222;}
-.st14:hover {opacity:1;fill:#222222;}
+.st14:hover {opacity:1;fill:#FFFF00;}
 .st15:hover {opacity:1;fill:#222222;}
 .st16:hover {opacity:1;fill:#222222;}
 .st17:hover {opacity:1;fill:#222222;}
-.st18:hover {opacity:1;fill:#111111;}
+.st18:hover {opacity:1;fill:#FFFFFF;}
 .st19:hover {opacity:1;fill:#FFFFFF;}
 .st20:hover {opacity:1;fill:#222222;}
-.st21:hover {opacity:1;fill:#111111;}
+.st21:hover {opacity:1;fill:#8B4513;}
 .st22:hover {opacity:1;fill:#FFFFFF;}
 .st23:hover {opacity:1;fill:#006400;}
-.st24:hover {opacity:1;fill:#000000;}
+.st24:hover {opacity:1;fill:#C0C0C0;}
 .st25:hover {opacity:1;fill:#FF0000;}

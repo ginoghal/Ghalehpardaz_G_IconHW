@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <script>
+  var type = prompt("What's your favourite type (Water, Thunder, Psychic, Fire, Dragon, Bug, Ice, Rock, Grass, Ghost or other(please specify)?");
+  </script>
 
     <link rel="stylesheet" href="css/main.css">
     <meta charset="utf-8">
@@ -41,10 +44,25 @@
   	C24.25,87.72,20.08,82.45,18.27,76.22z"/>
   <ellipse transform="matrix(0.3809 -0.9246 0.9246 0.3809 -51.7815 97.5336)" class="st3" cx="46.94" cy="87.43" rx="5" ry="10.97"/>
   </svg>
-         <input type="button" id="water_Icon" value="Water Type"/>
 
+  <div id="water_Button" div class="water_Button"/>
+    <button onclick="water_Button()">Water Type </button>
+
+
+
+  <script>
+    function water_Button() {
+      alert("Water is effective against Fire and Rock Types!");
+    }
+  </script>
+
+
+
+
+  </div></div>
 
 </section></section>
+
 
 <section id="thunder_Icon"><section class="thunder_Icon">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -56,6 +74,15 @@
 <circle class="st4" cx="55.61" cy="58" r="50"/>
 <polygon class="st5" points="60.27,16.71 27,69.51 58.06,60.81 47.55,99 81,43.09 53.24,47.78 "/>
 </svg>
+
+<div id="thunder_Button" div class="thunder_Button">
+  <button onclick="thunder_Button()">Thunder Type </button>
+
+<script>
+  function thunder_Button() {
+    alert("Thunder is effective against Water Type!");
+  }
+</script>
 
 </section></section>
 
@@ -72,6 +99,15 @@
 	C56.59,112.73,11.75,56.69,11.75,56.69z"/>
 <circle class="st8" cx="55" cy="57.69" r="18.53"/>
 </svg>
+
+<div id="psychic_Button" div class="psychic_Button">
+  <button onclick="psychic_Button()">Psychic Type </button>
+
+<script>
+  function psychic_Button() {
+    alert("Psychic is effective against Rock type!");
+  }
+  </script>
 
   </section></section>
 
@@ -94,6 +130,15 @@
 	c18.2,5.12,21.11-5.16,21.11-5.16c-7.06-5.96,0-13.17,0-13.17c-5.85-2.44-8.29,5.89-8.29,5.89C52.58,70.97,56.17,61.03,56.17,61.03z
 	"/>
 </svg>
+
+<div id="fire_Button" div class="fire_Button">
+  <button onclick="fire_Button()">Fire Type </button>
+
+  <script>
+   function fire_Button(){
+     alert("Fire is effective against Grass and Bug Types!")
+   }
+   </script>
 </section></section>
 
 <section id="dragon_Icon"><section class="dragon_Icon">
@@ -111,6 +156,15 @@
 	c0.8,0.63,1.97,0.59,2.68-0.15c4.07-4.22,7.85-14.7,8.75-17.3c0.13-0.38,0.19-0.78,0.17-1.19L88.2,56.45z"/>
 <path class="st14" d="M82.11,63.83c1.13-5.34-1.13-11.33-1.13-11.33l-3.24,3.07L82.11,63.83z"/>
 </svg>
+
+<div id="dragon_Button" div class="dragon_Button">
+  <button onclick="dragon_Button()">Dragon Type </button>
+
+  <script>
+   function dragon_Button(){
+     alert("Dragon is effective against other Dragon types!")
+   }
+   </script>
 </section></section>
 
 
@@ -131,6 +185,15 @@
 <circle class="st17" cx="33.97" cy="26.21" r="2.51"/>
 <circle class="st17" cx="71.65" cy="26.1" r="2.51"/>
 </svg>
+
+<div id="bug_Button" div class="bug_Button">
+  <button onclick="bug_Button()">Bug Type </button>
+
+  <script>
+   function bug_Button(){
+     alert("Bug is effective against Grass and Psychic Types!")
+   }
+   </script>
 </section></section>
 
 <section id="ice_Icon"><section class="ice_Icon">
@@ -144,6 +207,15 @@
 <path class="st19" d="M75.62,34.75l1.74,27.13l-8.14-10.66L63.8,93.28l-9.11-52.91l-6.78,18.8l-3.29-15.89L33.76,73.32l-1.16-47.1
 	c8.14-11.24,41.67-4.26,41.67-4.26L75.62,34.75z"/>
 </svg>
+<div id="ice_Button" div class="ice_Button">
+  <button onclick="ice_Button()">Ice Type </button>
+
+  <script>
+   function ice_Button(){
+     alert("Ice is effective against Grass and Dragon types!")
+   }
+
+   </script>
 </section></section>
 
 <section id="rock_Icon"><section class="rock_Icon">
@@ -159,6 +231,15 @@
 <path class="st21" d="M67.68,22.73c-13.08,13.92-23.76-0.16-23.76-0.16"/>
 </svg>
 
+<div id="rock_Button" div class="rock_Button">
+  <button onclick="rock_Button()">Rock Type </button>
+
+  <script>
+   function rock_Button(){
+     alert("Rock is effective against Fire,Ice and Bug Types!")
+   }
+   </script>
+
 <section id="grass_Icon"><section class="grass_Icon">
   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 110 110" style="enable-background:new 0 0 110 110;" xml:space="preserve">
@@ -170,6 +251,15 @@
 <path class="st23" d="M88.1,28.07C2.34,32.92,24.99,71.43,24.99,71.43l-6.96,4.37l7.77,9.71l5.34-5.18
 	C78.87,106.39,88.1,28.07,88.1,28.07z"/>
 </svg>
+
+<div id="grass_Button" div class="grass_Button">
+  <button onclick="grass_Button()">Grass Type </button>
+
+  <script>
+   function grass_Button(){
+     alert("Grass is effective against Rock and Water types!")
+   }
+   </script>
 </section></section>
 
 <section id="ghost_Icon"><section class="ghost_Icon">
@@ -188,11 +278,21 @@
 	c-7.28,7.61-23.95,0.65-23.95,0.65l-4.85,6.5l-0.81-7.96C29.2,73.38,23.7,69.49,23.7,69.49C62.21,137.94,86.96,67.55,86.96,67.55z"
 	/>
 </svg>
+<div id="ghost_Button" div class="ghost_Button">
+  <button onclick="ghost_Button()">Ghost Type </button>
+
+  <script>
+   function ghost_Button(){
+     alert("Ghost is effective against Ghost and Psychic Types!")
+   }
+   </script>
 
 </section></section>
 
 
-
 <script src="js/main.js" charset="utf-8"></script>
+
+
   </body>
+
 </html>
